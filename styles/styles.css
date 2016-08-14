@@ -1,0 +1,376 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+	height: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+div#logo table{
+	font-size: 17px;
+	font-style: italic;
+	width: 100%;
+}
+
+div#logo p{
+	margin: 0;
+}
+
+.right{
+	text-align: right;
+}
+
+.grey{
+	color: #afaeaa;
+}
+
+.green{
+	color: #91aa77;
+	font-weight: bold;
+}
+
+#topmenu{
+	height: 49px;
+	margin-top: 23px;
+	background: #218cc8;
+}
+
+#topmenu ul{
+	margin: 0;
+	padding: 0;
+}
+
+#topmenu ul li{
+	float: left;
+}
+
+#topmenu ul li a{
+	background: #218cc8;
+	color: #fff;
+	display: block;
+	font-size: 120%;
+	padding: 13px 22px;
+	text-transform: capitalize;
+	transition: .2s;
+}
+
+#topmenu ul li.active a, #topmenu ul li a:hover{
+	background: #125c87;
+}
+
+#contacts{
+	float: right;
+	margin: 13px 13px 0 0;
+}
+
+#contacts a img{
+	border: none;
+}
+
+#header{
+	margin-top: 20px;
+}
+
+#header img{;
+	width: 100%;
+}
+
+#content-header{
+	height: 1px;
+	top: -155px;
+	position: relative;
+	float: right;
+	right: 20px;
+}
+
+#content-header h1, #content-header h4{
+	margin: 0;
+	text-align: right;
+}
+
+#content-header h1{
+	font-size: 35px;
+	color: #5390b4;
+}
+
+#content-header h4{
+	color: #87abbf;
+	font-size: 18px;
+}
+
+#content-header a{
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: bold;
+	background: #f28221;
+	color: #fff;
+	float: right;
+	margin-top: 18px;
+	padding: 9px 23px;
+}
+
+#main-menu{
+	height: 61px;
+	position: relative;
+}
+
+#menu{
+	width: 100%;
+
+	margin-top: 15px;
+}
+
+#menu table{
+	border-spacing: 0;
+	float: left;
+}
+
+#menu td a{
+	background: #ededed;
+	border: 1px solid #dededd;
+	color: #676767;
+	display: block;
+	font-weight: bold;
+	margin-right: 5px;
+	padding: 10px 20px;
+}
+
+#menu a.active, #menu td a:hover{
+	border: 1px solid #c5e2f3;
+	background: #dfedf5;
+	color: #146492;
+}
+
+#search{	
+	position: relative;
+	float: right;
+}
+
+#search form table div{
+	margin-top: -3px; 
+	border: 1px solid #a5c796;
+	margin-right: 5px;
+}
+
+#search form table div input{
+	width: 237px;
+	border: 3px solid #c5debb;
+	color: #676767;
+	padding: 7px; 
+}
+
+/*CLEARFIX=========================================*/
+
+#products:before,
+#products:after,
+#main-menu:before,
+#main-menu:after {
+   content: "";
+   display: table;
+}
+
+#products:after,
+#main-menu:after {
+   clear: both;
+}
+/*=====================================================*/
+.separator{
+	margin-top: 12px;
+	width: 100%;
+	height: 1px;
+	border-top: 1px dashed #b1c7de;
+}
+
+/*#content{
+	position: relative;
+	width: 100%;
+}*/
+
+#products{
+	width: 100%;
+	margin-top: 10px;
+}
+
+#products div.left,
+#products div.center,
+#products div.f-right{
+	width: 273px;
+}
+
+#products div img{
+	border: 9px solid #dfedf5;
+	width: 255px;
+	height: 255px;
+}
+
+#products .left{
+	float: left;
+}
+
+#products .center{
+ 	margin: 0 auto;
+}
+
+
+#products .f-right{
+	float: right;
+	margin-top: -695px;
+}
+
+#products .border{
+	border: 1px solid #c5e2f3;
+	width: 273px;
+	height: 273px;
+}
+
+#products h3{
+	color: #136392;
+}
+
+#products ul li{
+	margin-top: 10px;
+}
+
+#products ul li.top{
+	margin-top: 45px;
+}
+
+#products p{
+	font-weight: bold;
+	font-size: 18px;
+	color: #444445;
+}
+
+#products p.right-code{
+	text-align: right;
+	margin-top: -21px;
+}
+
+#products p span.price{
+	color: #4c9242;
+}
+
+#products p span.code{
+	color: #676767;
+}
+
+.separator-2{
+	margin-top: -344px;
+	width: 100%;
+	height: 1px;
+	border-top: 1px dashed #b1c7de	
+}
+
+#pagination table{
+	margin-top: 10px;
+	width: 100%;
+	background: #dfedf5;
+}
+
+#pagination table a{
+	background: #a5bfcf;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+#pagination td.active a{
+	background: #218cc8;
+}
+
+#pagination td a:hover{
+	background: #375c84;
+}
+
+#pagination #pages{
+	width: auto;
+	margin: 0 auto;
+}
+
+#pagination #pages a{
+	background: #218cc8;
+}
+
+#pagination #pages td.active a,
+#pagination #pages td a:hover{
+	background: #375c84;
+}
+
+.left-2{
+	float: left;
+}
+
+.right-2{
+	float: right;
+}
+
+#pagination .previous,
+#pagination .next{
+	width: 25%;
+}
+
+#footer{
+	padding: 10px 0 15px 0;
+}
+
+#footer table td{
+	vertical-align: top;
+}
+
+#footer table table td{
+	padding: 0 5px;
+	border-right: 1px solid #4f858a;
+}
+
+#footer p,
+#footer a{
+	font-size: 90%;
+	color: #50868a;
+}
+
+#footer p{
+	margin-top: 5px;
+}
+
+#footer a.dell{
+	color: #1f565a;
+}
+
+#footer table{
+	width: 100%;
+}
+
+#footer #home{
+	float: right;
+	width: auto;
+}
+
+#home .contact{
+	padding-right: 0; 
+	border-right: none; 
+}
+
+
+
+
+
+
